@@ -177,3 +177,24 @@ textarea {
 .btn:hover {
   background: var(--acc2);
 }
+/* Footer */
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
+/* Media Queries */
+@media only screen and (max-width: 800px) {
+  #itsMe {
+    display: block;
+    margin: auto;
+    padding-bottom: 2rem;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
