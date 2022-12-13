@@ -179,8 +179,45 @@ textarea {
 }
 /* Footer */
 footer {
-  margin-top: 100px;
+  margin-top: 4rem;
   text-align: center;
+}
+.footNav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+.footNav li {
+  display: inline;
+  padding: 1rem;
+}
+.footNav a {
+  text-decoration: none;
+  color: var(--txtc);
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.footNav a:hover {
+  color: var(--acc2);
+}
+#myGit {
+  background-color: transparent;
+  border: 2px solid var(--acc2);
+  border-radius: 5px;
+  color: var(--txtc);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  transition: 0.5s;
+}
+#myGit:hover {
+  background-color: var(--acc2);
+  box-shadow: 5px 5px var(--acc2dimmed);
+  transform: translateY(-0.25em) translateX(-0.25em);
 }
 /* Media Queries */
 @media only screen and (max-width: 800px) {
@@ -196,5 +233,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .sm-first {
+    padding-bottom: 2rem;
   }
 }
