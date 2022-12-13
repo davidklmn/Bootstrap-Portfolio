@@ -213,11 +213,13 @@ footer {
   display: inline-block;
   font-size: 18px;
   transition: 0.5s;
+  text-transform: uppercase;
 }
 #myGit:hover {
   background-color: var(--acc2);
   box-shadow: 5px 5px var(--acc2dimmed);
   transform: translateY(-0.25em) translateX(-0.25em);
+  color: var(--deep);
 }
 /* Media Queries */
 @media only screen and (max-width: 800px) {
