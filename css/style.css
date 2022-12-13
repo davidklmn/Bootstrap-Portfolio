@@ -15,7 +15,10 @@ body {
   background-color: var(--deep);
   color: var(--txtc);
 }
-#dot {
+h2 {
+  margin-bottom: 2rem;
+}
+.dot {
   color: var(--acc2);
 }
 /* Jumbotron */
@@ -82,4 +85,23 @@ body {
 }
 .follow a:hover {
   color: var(--deep);
+}
+/* Projects */
+.wrap {
+  max-width: 1024px;
+  margin: auto;
+  padding: 2rem;
+}
+.card {
+  height: 375px;
+  background-color: var(--acc1);
+  margin-bottom: 2rem;
+}
+.card-img-top {
+  max-height: 250px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  object-position: top;
+  padding: 1rem;
+  border-radius: 20px;
 }
