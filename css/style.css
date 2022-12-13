@@ -120,7 +120,7 @@ h2 {
   display: block;
   margin: auto;
 }
-.col-lg-3 {
+.skills {
   height: 150px;
   display: flex;
 }
@@ -130,4 +130,50 @@ h2 {
 .notYet {
   opacity: 0.4;
   filter: alpha(opacity=40);
+}
+/* Contact */
+form {
+  width: 500px;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.feedback {
+  display: flex;
+  color: var(--txtc);
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid var(--acc2dimmed);
+  transition: all 0.5s;
+  padding: 12px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.feedback:focus {
+  border: 2px solid var(--acc2);
+  outline-width: 0;
+}
+
+textarea {
+  height: 200px;
+  resize: vertical;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 5px;
+  background: var(--acc2dimmed);
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 1.125rem;
+  padding: 10px 0;
+  transition: all 0.5s;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background: var(--acc2);
 }
